@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Synth" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="vala_compiler" />
+		<Build>
+			<Target title="WindowsDebug">
+				<Option output="bin/Synth" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="vala_compiler" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="WindowsRelease">
+				<Option output="bin/Synth" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="vala_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Linux">
+				<Option output="bin/Synth" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option type="1" />
+				<Option compiler="vala_compiler" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/vala-0.12.0/lib/gtk-2.0/include" />
+		</Compiler>
+		<Unit filename="Makefile" />
+		<Unit filename="source/Controls/CableControl.vala" />
+		<Unit filename="source/Controls/ConnectorControl.vala" />
+		<Unit filename="source/Controls/KnobControl.vala" />
+		<Unit filename="source/Environment.vala" />
+		<Unit filename="source/Generation/FrequencyGenerator.vala" />
+		<Unit filename="source/MainWindow.vala" />
+		<Unit filename="source/Menu/SynthMenuView.vala" />
+		<Unit filename="source/Menu/SynthModuleView.vala" />
+		<Unit filename="source/Menu/SynthView.vala" />
+		<Unit filename="source/Modules/GeneratorModuleView.vala" />
+		<Unit filename="source/Modules/LFOModuleView.vala" />
+		<Unit filename="source/Modules/LPFModuleView.vala" />
+		<Unit filename="source/Modules/ModuleView.vala" />
+		<Unit filename="source/Modules/OutputModuleView.vala" />
+		<Unit filename="source/Modules/ReverbModuleView.vala" />
+		<Unit filename="source/MusicGenerator.vala" />
+		<Unit filename="source/main.vala" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,9 @@
+rsc/archive/*
+bin/Synth*
+*.c
+*.o
+*.exe
+*.rar
+*.DS_Store
+Synth.layout
+
